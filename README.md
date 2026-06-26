@@ -1,6 +1,6 @@
 # CV Premium 2026 — Rodrigo Artero
 
-> Senior Full Stack Software Engineer · SaaS Architect · Product Engineer
+> Full Stack Software Engineer · SaaS Architect · Product Engineer
 
 CV editorial diseñado con estándares de consultoría de Executive Search. HTML + CSS + JavaScript puro. ATS-friendly. Optimizado para impresión A4 y exportación a PDF con Puppeteer.
 
@@ -90,7 +90,7 @@ Edita la sección `<header class="cv-header">` en `index.html`:
 
 ```html
 <h1 class="cv-name">Rodrigo Artero</h1>
-<p class="cv-title">Senior Full Stack Software Engineer ...</p>
+<p class="cv-title">Full Stack Software Engineer ...</p>
 ```
 
 ### Cambiar experiencia
