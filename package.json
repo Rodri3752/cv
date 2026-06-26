@@ -1,0 +1,14 @@
+{
+  "name": "cv-premium-rodrigo-artero",
+  "version": "1.0.0",
+  "description": "CV Premium 2026 — Rodrigo Artero — Senior Full Stack Software Engineer",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "pdf": "node generate-pdf.js",
+    "dev": "npx serve ."
+  },
+  "dependencies": {
+    "puppeteer": "^22.0.0"
+  }
+}

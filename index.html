@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Rodrigo Artero — Senior Full Stack Software Engineer · SaaS Architect · Product Engineer" />
+  <meta name="author" content="Rodrigo Artero" />
+  <meta name="robots" content="index, follow" />
+
+  <meta property="og:title" content="Rodrigo Artero — Senior Full Stack Software Engineer" />
+  <meta property="og:description" content="SaaS Architect · Product Engineer · Full Stack" />
+  <meta property="og:type" content="profile" />
+
+  <title>Rodrigo Artero — Senior Full Stack Software Engineer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========================================================
+       NAV — sticky, hidden in print
+  ======================================================== -->
+  <nav class="landing-nav" aria-label="Navegación">
+    <div class="nav-inner">
+      <a href="#top" class="nav-brand">RA</a>
+      <div class="nav-links">
+        <a href="#experience" class="nav-link">Experiencia</a>
+        <a href="#projects" class="nav-link">Proyectos</a>
+        <a href="#stack" class="nav-link">Stack</a>
+        <a href="#education" class="nav-link">Educación</a>
+      </div>
+      <button class="nav-cta" onclick="window.print()" aria-label="Descargar PDF">Descargar CV</button>
+    </div>
+  </nav>
+
+  <main id="top">
+
+    <!-- ========================================================
+         HERO
+    ======================================================== -->
+    <header class="hero" aria-label="Portada">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="hero-eyebrow">Senior Full Stack Software Engineer</p>
+        <h1 class="hero-name">Rodrigo Artero</h1>
+        <p class="hero-subtitle">
+          SaaS Architect
+          <span class="dot" aria-hidden="true">·</span>
+          Product Engineer
+          <span class="dot" aria-hidden="true">·</span>
+          Full Stack
+        </p>
+
+        <div class="hero-contact">
+          <address class="contact-bar">
+            <a class="contact-pill" href="https://www.google.com/maps?q=Mendoza,Argentina" target="_blank" rel="noopener">Mendoza, Argentina</a>
+            <a class="contact-pill" href="mailto:artero3752@gmail.com">artero3752@gmail.com</a>
+            <a class="contact-pill" href="tel:+542613019927">+54 261 301-9927</a>
+            <a class="contact-pill" href="https://linkedin.com/in/rodrigo-artero" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="contact-pill" href="https://github.com/rodrigo-artero" target="_blank" rel="noopener">GitHub</a>
+            <a class="contact-pill" href="https://mediafooter.com" target="_blank" rel="noopener">Portfolio</a>
+          </address>
+        </div>
+      </div>
+    </header>
+
+    <!-- ========================================================
+         PROFILE — Vercel-style intro section
+    ======================================================== -->
+    <section class="section section-profile" aria-labelledby="profile-heading">
+      <div class="section-label">
+        <span class="label-num">01</span>
+        <h2 class="label-text" id="profile-heading">Perfil</h2>
+      </div>
+      <div class="section-body">
+        <p class="lead">
+          Ingeniero Full Stack orientado a la construcción de productos digitales,
+          plataformas SaaS y sistemas empresariales escalables. Fundador de MediaFooter,
+          con experiencia liderando el ciclo completo de desarrollo: análisis, arquitectura,
+          implementación, despliegue y mantenimiento en producción.
+        </p>
+        <p class="body-text">
+          Especializado en PHP, Next.js, React, TypeScript, PostgreSQL y MySQL sobre
+          infraestructura Linux. Enfoque en <strong>arquitectura multi-tenant</strong>,
+          <strong>ownership total</strong>, <strong>clean code</strong>, performance,
+          seguridad y <strong>product thinking</strong>. Cada solución se diseña como un
+          producto: escalable, mantenible y orientado al impacto del negocio.
+        </p>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         EXPERIENCE — Linear-style cards
+    ======================================================== -->
+    <section class="section section-experience" id="experience" aria-labelledby="exp-heading">
+      <div class="section-label">
+        <span class="label-num">02</span>
+        <h2 class="label-text" id="exp-heading">Experiencia</h2>
+      </div>
+      <div class="section-body">
+        <div class="exp-cards">
+
+          <article class="exp-card">
+            <div class="exp-card-header">
+              <div class="exp-card-titles">
+                <h3 class="exp-role">Founder &amp; Lead Full Stack Engineer</h3>
+                <p class="exp-company">MediaFooter</p>
+              </div>
+              <span class="exp-badge">2022 — Actualidad</span>
+            </div>
+            <ul class="exp-list">
+              <li>Diseño y desarrollo de plataformas web, ERPs, CRMs y soluciones a medida para múltiples clientes.</li>
+              <li>Arquitectura de aplicaciones Full Stack con aislamiento de datos, paneles administrativos y gestión de roles.</li>
+              <li>Integración de APIs de terceros, optimización SEO y mejora de rendimiento en tiempos de carga.</li>
+              <li>Gestión integral de proyectos, clientes e infraestructura Linux en producción.</li>
+            </ul>
+          </article>
+
+          <article class="exp-card">
+            <div class="exp-card-header">
+              <div class="exp-card-titles">
+                <h3 class="exp-role">Operario Técnico</h3>
+                <p class="exp-company">XNATIVA</p>
+              </div>
+              <span class="exp-badge">2023 — Actualidad</span>
+            </div>
+            <ul class="exp-list">
+              <li>Administración de entornos Linux y mantenimiento de infraestructura.</li>
+              <li>Desarrollo y mantenimiento de aplicaciones con PHP y MySQL.</li>
+              <li>Automatización de procesos operativos mediante scripts personalizados.</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         PROJECTS — Stripe-style product cards
+    ======================================================== -->
+    <section class="section section-projects" id="projects" aria-labelledby="proj-heading">
+      <div class="section-label">
+        <span class="label-num">03</span>
+        <h2 class="label-text" id="proj-heading">Proyectos</h2>
+      </div>
+      <div class="section-body">
+        <div class="proj-grid">
+
+          <article class="proj-card">
+            <div class="proj-card-top">
+              <h3 class="proj-name">JODAPP</h3>
+              <span class="proj-tag">SaaS Platform</span>
+            </div>
+            <p class="proj-desc">
+              Plataforma SaaS multi-tenant para la industria del entretenimiento.
+              Arquitectura escalable con aislamiento completo de datos por organización.
+            </p>
+            <dl class="proj-meta">
+              <div class="meta-row">
+                <dt>Stack</dt>
+                <dd>Next.js, React, TypeScript, PostgreSQL, Prisma</dd>
+              </div>
+              <div class="meta-row">
+                <dt>Features</dt>
+                <dd>RBAC, Analytics, QR, CRM, Beneficios</dd>
+              </div>
+              <div class="meta-row">
+                <dt>Arquitectura</dt>
+                <dd>Multi-tenant con aislamiento de datos, escalabilidad horizontal</dd>
+              </div>
+              <div class="meta-row">
+                <dt>Impacto</dt>
+                <dd>Onboarding de múltiples organizaciones con control granular de permisos</dd>
+              </div>
+            </dl>
+          </article>
+
+          <article class="proj-card">
+            <div class="proj-card-top">
+              <h3 class="proj-name">ERP Venta de Autos</h3>
+              <span class="proj-tag">Enterprise ERP</span>
+            </div>
+            <p class="proj-desc">
+              Sistema integral para concesionarias de vehículos.
+              Gestión completa del ciclo de ventas con panel administrativo.
+            </p>
+            <dl class="proj-meta">
+              <div class="meta-row">
+                <dt>Stack</dt>
+                <dd>PHP, MySQL, JavaScript, HTML5, CSS3</dd>
+              </div>
+              <div class="meta-row">
+                <dt>Features</dt>
+                <dd>Gestión de vehículos, clientes, ventas, múltiples imágenes, filtros</dd>
+              </div>
+              <div class="meta-row">
+                <dt>Arquitectura</dt>
+                <dd>Patrón MVC, panel administrativo completo, responsive design</dd>
+              </div>
+              <div class="meta-row">
+                <dt>Impacto</dt>
+                <dd>Digitalización del flujo de ventas con administración centralizada</dd>
+              </div>
+            </dl>
+          </article>
+
+          <article class="proj-card">
+            <div class="proj-card-top">
+              <h3 class="proj-name">MediaFooter</h3>
+              <span class="proj-tag">Agency Work</span>
+            </div>
+            <p class="proj-desc">
+              Desarrollo de sitios corporativos, landing pages y soluciones
+              empresariales para múltiples clientes con automatización.
+            </p>
+            <dl class="proj-meta">
+              <div class="meta-row">
+                <dt>Stack</dt>
+                <dd>HTML5, CSS3, JavaScript, PHP, Linux, Apache</dd>
+              </div>
+              <div class="meta-row">
+                <dt>Features</dt>
+                <dd>Sitios corporativos, landing pages, automatización de procesos</dd>
+              </div>
+              <div class="meta-row">
+                <dt>Arquitectura</dt>
+                <dd>Infraestructura Linux propia, optimización SEO y performance</dd>
+              </div>
+              <div class="meta-row">
+                <dt>Impacto</dt>
+                <dd>Portafolio de clientes con presencia digital optimizada</dd>
+              </div>
+            </dl>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         STACK — grid of categories
+    ======================================================== -->
+    <section class="section section-stack" id="stack" aria-labelledby="stack-heading">
+      <div class="section-label">
+        <span class="label-num">04</span>
+        <h2 class="label-text" id="stack-heading">Stack</h2>
+      </div>
+      <div class="section-body">
+        <div class="stack-grid">
+          <article class="stack-card">
+            <h3 class="stack-cat">Frontend</h3>
+            <p class="stack-items">Next.js · React · TypeScript · JavaScript · HTML5 · CSS3 · Tailwind CSS · Bootstrap</p>
+          </article>
+          <article class="stack-card">
+            <h3 class="stack-cat">Backend</h3>
+            <p class="stack-items">PHP · C# · Java · Node.js · REST APIs</p>
+          </article>
+          <article class="stack-card">
+            <h3 class="stack-cat">Databases</h3>
+            <p class="stack-items">PostgreSQL · MySQL · Prisma</p>
+          </article>
+          <article class="stack-card">
+            <h3 class="stack-cat">Cloud &amp; DevOps</h3>
+            <p class="stack-items">Linux · Apache · Hostinger · Microsoft Azure</p>
+          </article>
+          <article class="stack-card">
+            <h3 class="stack-cat">Architecture</h3>
+            <p class="stack-items">MVC · RBAC · Multi-Tenant · Clean Code · SOLID · Responsive Design</p>
+          </article>
+          <article class="stack-card">
+            <h3 class="stack-cat">Tools</h3>
+            <p class="stack-items">Git · GitHub · Prisma</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         EDUCATION & CERTIFICATIONS
+    ======================================================== -->
+    <section class="section section-education" id="education" aria-labelledby="edu-heading">
+      <div class="section-label">
+        <span class="label-num">05</span>
+        <h2 class="label-text" id="edu-heading">Educación &amp; Certificaciones</h2>
+      </div>
+      <div class="section-body">
+        <ul class="cert-list">
+          <li class="cert-item">
+            <div class="cert-info">
+              <span class="cert-title">Programador Web Full Stack</span>
+              <span class="cert-org">EGG Educación</span>
+            </div>
+          </li>
+          <li class="cert-item">
+            <div class="cert-info">
+              <span class="cert-title">Desarrollo con IA: de 0 a Producción</span>
+              <span class="cert-org">BIG School · mar. 2026</span>
+            </div>
+          </li>
+          <li class="cert-item">
+            <div class="cert-info">
+              <span class="cert-title">Foundational C# with Microsoft</span>
+              <span class="cert-org">freeCodeCamp · jul. 2024</span>
+            </div>
+          </li>
+          <li class="cert-item">
+            <div class="cert-info">
+              <span class="cert-title">Foundational C# with Microsoft — Certification Exam</span>
+              <span class="cert-org">freeCodeCamp</span>
+            </div>
+          </li>
+          <li class="cert-item">
+            <div class="cert-info">
+              <span class="cert-title">Fundamentos Profesionales del Análisis de Datos</span>
+              <span class="cert-org">Microsoft</span>
+            </div>
+          </li>
+          <li class="cert-item">
+            <div class="cert-info">
+              <span class="cert-title">Microsoft Azure AZ-900</span>
+              <span class="cert-org">Microsoft · jul. 2023</span>
+            </div>
+          </li>
+          <li class="cert-item">
+            <div class="cert-info">
+              <span class="cert-title">Fundamentos Esenciales de la Programación</span>
+              <span class="cert-org">LinkedIn · mar. 2023</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         LANGUAGES
+    ======================================================== -->
+    <section class="section section-languages" aria-labelledby="lang-heading">
+      <div class="section-label">
+        <span class="label-num">06</span>
+        <h2 class="label-text" id="lang-heading">Idiomas</h2>
+      </div>
+      <div class="section-body">
+        <div class="lang-grid">
+          <div class="lang-card">
+            <span class="lang-name">Español</span>
+            <span class="lang-level">Nativo</span>
+          </div>
+          <div class="lang-card">
+            <span class="lang-name">Inglés</span>
+            <span class="lang-level">B1</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         FOOTER
+    ======================================================== -->
+    <footer class="landing-footer">
+      <div class="footer-inner">
+        <p class="footer-name">Rodrigo Artero</p>
+        <p class="footer-meta">Senior Full Stack Software Engineer · Mendoza, Argentina · 2026</p>
+      </div>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
